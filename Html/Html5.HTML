@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label>Progress</label>
+    <br />
+    <progress
+      value="10"
+      max="100"
+      style="width: 300px; height: 30px"
+    ></progress>
+    <br />
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br />
+
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.6">60%</meter>
+    <br />
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <br />
+    <h1>Show a Date Control</h1>
+
+    <form action="#">
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday" />
+    </form>
+    <label for="bdaymonth">Birthday (month and year):</label>
+    <input type="month" id="bdaymonth" name="bdaymonth" />
+    <style>
+      body {
+        background-image: url(/Images/1.jpg);
+      }
+    </style>
+  </body>
+</html>
